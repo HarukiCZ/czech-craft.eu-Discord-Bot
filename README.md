@@ -1,2 +1,2 @@
-# czech-craft.eu-Discord-Bot
+# czech-craft.eu Discord Bot
 Discord bot for interacting with czech-craft.eu api
