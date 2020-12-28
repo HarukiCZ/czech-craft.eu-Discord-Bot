@@ -14,7 +14,7 @@ npm start
 ```
 ----
 # How to use
-Using this bot you can simply vote for your server using `cc!vote nickname` command.
+You can simply vote for your server using `cc!vote nickname` command.
 
 ----
 ### Used packages
