@@ -7,6 +7,7 @@ go to the project folder and run this command
 npm install
 ```
 **Before anything, please edit you config.json!**
+
 After this you can start bot using this command
 ```bash
 npm start
