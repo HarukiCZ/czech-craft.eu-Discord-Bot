@@ -8,7 +8,7 @@ npm install
 ```
 **Before anything, please edit you config.json!**
 
-After this you can start bot using this command
+After this you can start bot by this command
 ```bash
 npm start
 ```
