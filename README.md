@@ -26,6 +26,5 @@ You can simply vote for your server using `cc!vote nickname` command.
 ----
 ### DISCLAIMERS
 Im not asociated with czechcraft.eu. This is not official discord bot for this server list!
-License
 ----
 **This software is distributed under MIT license**
