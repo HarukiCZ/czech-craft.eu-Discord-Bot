@@ -25,6 +25,6 @@ You can simply vote for your server using `cc!vote nickname` command.
 | minecraft-server-util | Check minecraft server |;
 ----
 ### DISCLAIMERS
-Im not asociated with czechcraft.eu. This is not official discord bot for this server list!
+Im not asociated with czech-craft.eu. This is not official discord bot for this server list!
 ----
 **This software is distributed under MIT license**
