@@ -1,0 +1,17 @@
+{
+  "name": "czechcraft",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "pigmen36",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "get-json": "^1.0.1",
+    "minecraft-server-util": "^3.4.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
