@@ -20,9 +20,9 @@ You can simply vote for your server using `cc!vote nickname` command.
 ### Used packages
 | package | function |
 | ------ | ------ |
-| discord.js | Operate with discord api |
-| get-json | parse json from page |
-| minecraft-server-util | Check minecraft server |;
+| discord.js 12.5.1 | Operate with discord api |
+| get-json 1.0.1 | parse json from page |
+| minecraft-server-util 3.4.2 | Check minecraft server |;
 ----
 ### DISCLAIMERS
 Im not asociated with czech-craft.eu. This is not official discord bot for this server list!
