@@ -22,11 +22,11 @@ client.on("message", (msg) => {
                     .setAuthor(" ", ``, "")
                     .setThumbnail(`${client.user.avatarURL({ format: "png", dynamic: true, size: 1024 })}`)
                     .setDescription(
-                        `**Jméno hráče:** ${response.username}\n**počet hlasů hráče:** ${response.vote_count}\nHurá! vypadá to že můžeš hlasovat.\n**Pro hlasování klikni: ---> [ZDE](https://czech-craft.eu/server/vanilkacraft/vote/?user=${response.username}) <---**`
+                        `**Jméno hráče:** ${response.username}\n**počet hlasů hráče:** ${response.vote_count}\nHurá! vypadá to že můžeš hlasovat.\n**Pro hlasování klikni: ---> [ZDE](https://czech-craft.eu/server/${server_slug}/vote/?user=${response.username}) <---**`
                     )
                     .setImage("")
                     .setTimestamp()
-                    .setFooter("CzechCraft bot by .☕Pigmen36ᴰᵉᵛ☕.#6078", `${client.user.avatarURL({ format: "png", dynamic: true, size: 1024 })}`);
+                    .setFooter("CzechCraft bot by Haruki_", `${client.user.avatarURL({ format: "png", dynamic: true, size: 1024 })}`);
 
                 msg.channel.send(Embed);
             } else {
@@ -40,7 +40,7 @@ client.on("message", (msg) => {
                     )
                     .setThumbnail(`${client.user.avatarURL({ format: "png", dynamic: true, size: 1024 })}`)
                     .setTimestamp()
-                    .setFooter("CzechCraft bot by .☕Pigmen36ᴰᵉᵛ☕.#6078", `${client.user.avatarURL({ format: "png", dynamic: true, size: 1024 })}`);
+                    .setFooter("CzechCraft bot by Haruki_", `${client.user.avatarURL({ format: "png", dynamic: true, size: 1024 })}`);
 
                 msg.channel.send(Embed);
             }
@@ -51,5 +51,6 @@ client.on("message", (msg) => {
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
+
 
 client.login(token);
